@@ -46,7 +46,7 @@ const Header = () => {
                 <motion.div key={item.id}
                   initial={{ opacity: 0, y: 50 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 2 }}
+                  transition={{ duration: 0.5, delay: 1 }}
                   viewport={{ once: true }}
                   
                 >
