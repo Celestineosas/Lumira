@@ -2,6 +2,7 @@ import React from 'react'
 import { BestSell2, bodyWash, bodyWash2 } from '../../constants'
 import BodyWashCard from '../../components/BodyWashCard/BodyWashCard'
 
+
 const BodyContent = () => {
     return (
         <section id='body' className='flex flex-col w-full gap=5'>
