@@ -8,29 +8,29 @@ import HorizontalScroll from "./sections/HorizontalScroll/HorizontalScroll";
 import SkinCare from "./sections/SkinCare/SkinCare";
 import WhyChoose from "./sections/WhyChoose/WhyChoose";
 import YourSkin from "./sections/YourSikn/YourSkin";
-import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
+// import { useEffect } from "react";
+// import Lenis from "@studio-freight/lenis";
 import bgImg from "./assets/images/Mask group.jpg"
 
 function App() {
-  useEffect(() => {
-    const lenis = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smooth: true,
-    });
+  // useEffect(() => {
+  //   const lenis = new Lenis({
+  //     duration: 1.2,
+  //     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  //     smooth: true,
+  //   });
 
-    const raf = (time) => {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    };
+  //   const raf = (time) => {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   };
 
-    requestAnimationFrame(raf);
+  //   requestAnimationFrame(raf);
 
-    return () => {
-      lenis.destroy();
-    };
-  }, []);
+  //   return () => {
+  //     lenis.destroy();
+  //   };
+  // }, []);
   return (
     <main className="relative">
       <div className="fixed top-0 left-0 w-full h-full z-0">
