@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const SkinCare = () => {
     return (
-        <section className='padding flex sm:flex-row flex-col items-center justify-center sm:gap-15 gap-7 bg-[#212e03]'>
+        <section className='sm:px-14 px-8 sm:py-14 py-12 flex sm:flex-row flex-col items-center justify-center sm:gap-15 gap-7 bg-[#212e03]'>
             <div className='flex flex-col justify-center w-full gap-10'>
                 <motion.p
                     initial={{ opacity: 0, y: 50 }}
@@ -35,7 +35,10 @@ const SkinCare = () => {
                 transition={{ ease: "easeInOut", duration: 0.75, delay: 0.7 }}
                 viewport={{ once: true }}
                 className=''>
-                <img
+                <motion.img
+                    initial={{ scale: 1 }}
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ duration: 0.5 }}
                     src={skinCare}
                     alt="Skin Care"
                     className='sm:h-[450px] sm:w-[700px] w-[350px] h-[250px] object-cover rounded-md relative'

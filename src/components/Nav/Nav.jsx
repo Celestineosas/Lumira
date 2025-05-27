@@ -12,10 +12,6 @@ const Nav = () => {
     setIsOpen(!isOpen);
   };
 
-  function handleNavSelection (currentId){
-    setNavSelection(currentId === navSelection ? null : currentId)
-  }
-
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
@@ -28,12 +24,9 @@ const Nav = () => {
         <ul className="flex justify-center items-center gap-10 w-[726x] max-xl:gap-6 border p-4 border-[#212e03] rounded-[82px] max-lg:hidden">
           {navLinks.map((item) => (
             <li key={item.label}>
-              <a onClick={()=> handleNavSelection(item.label)}
+              <a 
                 href={item.href}
-                className={`${
-                    navSelection === item.label ? "bg-[#3e5210] text-white px-5 py-3 rounded-[82px]" : "bg-transparent text-[#212e03]"
-                  } font-inter leading-normal text-md w-[143px] transition-all duration-300 ease-in-out
-`}
+                className="bg-transparent text-[#212e03] font-inter leading-normal text-md w-[143px] transition-all duration-300 ease-in-out hover:bg-[#3e5210] hover:text-white hover:px-5 hover:py-3 hover:rounded-[82px] "
               >
                 {item.label}
               </a>

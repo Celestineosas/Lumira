@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const AboutUs2 = () => {
     return (
-        <section className="flex flex-col gap-14 sm:px-14 px-8 sm:py-8 py-8 bg-[#facbad] w-full">
+        <section className="flex flex-col gap-14 sm:px-14 px-8 sm:py-8 py-8 bg-[#ffeee2] w-full">
             <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -28,7 +28,7 @@ const AboutUs2 = () => {
                     </div>
                 </div>
                 <div className="flex lg:flex-row flex-col gap-2 justify-center items-center border border-[#212e03] px-2 max-md:px-0 py-7 md:w-1/2">
-                    <img src={maskGroup19} alt='small' className='sm:w-64 w-72 rounded-3xl' />
+                    <img src={maskGroup19} alt='small' className='sm:w-64 w-72 rounded-[59px]' />
                     <div className='flex flex-col gap-5 items-start justify-start'>
                         <div className="flex gap-1 max-lg:px-7 m-2">
                             {[...Array(4)].map((_, i) => (
@@ -48,7 +48,7 @@ const AboutUs2 = () => {
                 viewport={{ once: true }}
                 className='mt-2 flex justify-center items-center -space-x-1'>
                 <Button label="View more" px="px-12" backgroundColor="bg-[#212e03]" text="text-white" />
-                <FaArrowRightLong className='w-12 h-12 text-[#212e03] border border-[#212e03] p-3 rounded-full' />
+                <FaArrowRightLong className='w-12 h-12 text-[#212e03] border border-[#212e03] p-3 rounded-[59px]' />
             </motion.div>
         </section>
 

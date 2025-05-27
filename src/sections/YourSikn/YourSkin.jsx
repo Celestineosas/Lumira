@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const YourSkin = () => {
     return (
-        <section className='flex w-full md:flex-row flex-col sm:px-14 px-8 py-12 justify-between gap-16 max-container bg-[#facbad] ' >
+        <section className='flex w-full md:flex-row flex-col sm:px-14 px-8 py-12 justify-between gap-16 max-container bg-[#ffeee2] ' >
 
             <div className='flex flex-col justify-center w-full gap-6'>
                 <motion.h1
@@ -14,7 +14,7 @@ const YourSkin = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ ease: "easeInOut", duration: 0.75, delay: 0.5 }}
                     viewport={{ once: true }}
-                    className='sm:text-5xl text-3.5xl font-medium sm:font-inter font-nohemi  text-[#212e03] max-sm:leading-none'>
+                    className='sm:text-5xl text-3.5xl sm:font-semibold font-medium sm:font-inter font-nohemi  text-[#212e03] max-sm:leading-none'>
                     Your skin<br /> deserves <br /> more than <br /> just moisture.
                 </motion.h1>
                 <motion.div
@@ -22,8 +22,8 @@ const YourSkin = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ ease: "easeInOut", duration: 0.75, delay: 0.7 }}
                     viewport={{ once: true }}
-                    className='mt-2'>
-                    <Button label="Explore" px="px-8" backgroundColor="bg-[#212e03]" text="text-[#facbad]" iconURL={forwardArrow} iconRadius="rounded-full" iconBgColor="bg-[#facbad]" iconColor="text-[#facbad]" iconPadding="p-1" />
+                    className='mt-2 font-medium'>
+                    <Button label="Explore" px="px-10" backgroundColor="bg-[#212e03]" text="text-white" iconURL={forwardArrow} iconRadius="rounded-full" iconBgColor="bg-white" iconColor="text-[#facbad]" iconPadding="p-1" />
                 </motion.div>
 
             </div>

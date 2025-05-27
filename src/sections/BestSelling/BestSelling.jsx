@@ -27,7 +27,7 @@ const BestSelling = () => {
                     ))
                 }
             </div>
-            <div id='men' className='bg-[#facbad] flex sm:px-14 w-full px-8 sm:py-28 py-8 '>
+            <div id='men' className='bg-[#ffeee2] flex sm:px-14 w-full px-8 sm:py-14 py-8 '>
                 <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 w-full gap-5 max-lg:gap-12'>
                     {
                         BestSell2.map((item) => (

@@ -31,12 +31,13 @@ const Footer = () => {
                 <input
                     type="text"
                     placeholder="Enter your email"
-                    className="flex-1 shadow-xl px-6 py-3 bg-[#212e03] rounded-[82px] focus:outline-none"
+                    className="flex-1 shadow-xl px-6 py-5 bg-[#212e03] text-white rounded-[82px] focus:bg-[#212e03] focus:outline-none"
                 />
-                <FaArrowRightLong className='w-12 h-12 absolute right-0 text-[#212e03] bg-white border border-[#212e03] p-3 rounded-[82px]' />
+                <FaArrowRightLong className='w-[60px] h-[60px] absolute right-0 text-[#212e03] bg-white border border-[#212e03] p-3 rounded-[82px]' />
             </motion.div>
 
-            <ul className='grid md:grid-cols-4 grid-cols-2 sm:gap-15 gap-5 text-[#212e03] w-full text-center font-nohemi sm:mt-20 mt-10'>
+            <ul
+                className='grid md:grid-cols-4 grid-cols-2 sm:gap-15 cursor-pointer gap-5 text-[#212e03] w-full text-center font-nohemi sm:mt-36 mt-20'>
                 <li>Shop</li>
                 <li>Contacts</li>
                 <li>Terms and conditions</li>

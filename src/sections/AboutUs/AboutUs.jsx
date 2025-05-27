@@ -45,7 +45,7 @@ const AboutUs = () => {
                     viewport={{ once: true }}
                     className='flex md:flex-row flex-col gap-5 w-full'>
                     <div className="flex lg:flex-row flex-col gap-2 justify-center items-center border border-white px-2 max-md:px-0 py-7 md:w-1/2">
-                        <img src={maskGroup16} alt='small' className='sm:w-64 w-72 rounded-3xl' />
+                        <img src={maskGroup16} alt='small' className='sm:w-64 w-72 rounded-[59px]' />
                         <div className='flex flex-col gap-5 items-start justify-start'>
                             <div className="flex gap-1 max-lg:px-7 m-2">
                                 {[...Array(4)].map((_, i) => (
@@ -58,7 +58,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div className="flex lg:flex-row flex-col gap-2 justify-center items-center border border-white px-2 max-md:px-0 py-7 md:w-1/2">
-                        <img src={maskGroup17} alt='small' className='sm:w-64 w-72 rounded-3xl' />
+                        <img src={maskGroup17} alt='small' className='sm:w-64 w-72 rounded-[59px]' />
                         <div className='flex flex-col gap-5 items-start justify-start'>
                             <div className="flex gap-1 max-lg:px-7 m-2">
                                 {[...Array(4)].map((_, i) => (
