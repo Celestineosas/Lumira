@@ -10,6 +10,7 @@ import WhyChoose from "./sections/WhyChoose/WhyChoose";
 import YourSkin from "./sections/YourSikn/YourSkin";
 import { useEffect } from "react";
 import Lenis from "@studio-freight/lenis";
+import bgImg from "./assets/images/Mask group.jpg"
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,13 @@ function App() {
   }, []);
   return (
     <main className="relative">
+      <div className="fixed top-0 left-0 w-full h-full z-0">
+        <img
+          src={bgImg}
+          alt="bg"
+          className="w-full h-full object-cover opacity-10"
+        />
+      </div>
       <Header />
       <WhyChoose />
       <YourSkin />

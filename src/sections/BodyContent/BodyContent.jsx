@@ -5,7 +5,7 @@ import BodyWashCard from '../../components/BodyWashCard/BodyWashCard'
 
 const BodyContent = () => {
     return (
-        <section id='body' className='flex flex-col w-full gap=5'>
+        <section id='body' className='flex flex-col w-full gap=5 overflow-x-hidden'>
             <div className='flex flex-col'>
                 <div className='flex items-center justify-center mt-5 p-5 text-black font-nohemi bg-[#d9d9d9] text-lg font-semibold'>Body Wash</div>
                 <div className='sm:px-14 px-8 sm:py-12 py-8 '>

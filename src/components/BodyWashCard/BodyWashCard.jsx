@@ -10,7 +10,7 @@ const BodyWashCard = ({ img, alt, id }) => {
             transition={{ duration: 0.5, delay: id * 0.2 }}
             viewport={{ once: true }}
 
-            className='relative flex flex-1 flex-col w-full '>
+            className='relative flex flex-1 flex-col w-full'>
             <img src={img} alt={alt} width={270} className='relative object-contain object-center w-full' />
             <motion.div
                 initial={{ scale: 1 }}
