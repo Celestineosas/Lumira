@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../../components/Nav/Nav'
+
 import Button from '../../components/Button/Button'
 import { cartSvg } from '../../assets/icons'
 import { maskgroup } from '../../constants'
@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 const Header = () => {
   return (
     <section className='flex flex-col w-full bg-[#ffeee2] max-container overflow-x-hidden'>
-      <Nav />
+     
       <div className='flex flex-1 items-center w-full justify-center flex-col max-sm:gap-5 sm:px-14 px-8 sm:pt-20 py-12 sm:mt-16 mt-24'>
         <motion.h1
           initial={{ opacity: 0 }}

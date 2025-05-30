@@ -8,6 +8,7 @@ import HorizontalScroll from "./sections/HorizontalScroll/HorizontalScroll";
 import SkinCare from "./sections/SkinCare/SkinCare";
 import WhyChoose from "./sections/WhyChoose/WhyChoose";
 import YourSkin from "./sections/YourSikn/YourSkin";
+import Nav from "./components/Nav/Nav"
 // import { useEffect } from "react";
 // import Lenis from "@studio-freight/lenis";
 import bgImg from "./assets/images/Mask group.jpg"
@@ -40,6 +41,7 @@ function App() {
           className="w-full h-full object-cover opacity-10"
         />
       </div>
+      <Nav />
       <Header />
       <WhyChoose />
       <YourSkin />
